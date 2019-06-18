@@ -4,6 +4,7 @@ localhost
 [intranetweb]
 ansible-client1.bansal.com
 
-[everyone:children]
+[every:children]
 myself
 intranetweb
+

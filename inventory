@@ -1,0 +1,9 @@
+[myself]
+localhost
+
+[intranetweb]
+ansible-client1.bansal.com
+
+[everyone:children]
+myself
+intranetweb
